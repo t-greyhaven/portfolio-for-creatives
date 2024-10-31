@@ -102,7 +102,7 @@ html {
   --hover-color: #2a6c71;
   --visited-color: #F2F0EA;
   --project-title-color: #F2F0EA;
-  --project-sidebar-background-color: orangered;
+  --project-sidebar-background-color: rgb(16, 86, 147);
   --project-sidebar-text-color: white;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #F2F0EA;
@@ -840,4 +840,24 @@ a:active {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
+}
+
+/* CSS for Change Colour on Hover */
+
+.wordmark-wrapper {
+  /* width: 40%; */
+}
+
+.wordmark {
+  fill: white;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.empty {
+  fill: none;
+}
+
+.wordmark:hover {
+  fill: black;
 }
