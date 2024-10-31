@@ -265,7 +265,6 @@ a:active {
 
 .custom-navigation:hover {
   background: url(assets/temp/heading-background.svg);
-  color: var(--hyperlink-alternate-color)
   background-size: 15%;
   background-repeat: no-repeat;
   background-position: center center;
